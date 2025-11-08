@@ -1,8 +1,6 @@
 /*printing on multiple lines*/
 console.log(
-`
-C is fun
+`C is fun
 Python is cool
-JavaScript is amazing
-`
+JavaScript is amazing`
 );
