@@ -1,11 +1,7 @@
 // 3-value_argument.js
 
-// compute how many user args were passed
-const argsCount = process.argv.length - 2;
-
-//print the required message using console.log
-if (argsCount === 0) {
+if (process.argv[2] === "") {
   console.log("No argument");
-} else if (argsCount === 1) {
-  console.log(process.argv[2]);
+} else {
+  console.log(process.argv[2]);//print the argument passed using console.log
 }
